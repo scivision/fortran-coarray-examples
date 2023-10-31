@@ -20,6 +20,9 @@ jobs:
 
     runs-on: ${{ matrix.os }}
 
+    env:
+      FC: gfortran-12
+
     steps:
     - uses: actions/checkout@v4
 
